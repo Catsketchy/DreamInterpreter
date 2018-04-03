@@ -1,0 +1,135 @@
+		/**http://codechirps.com/how-to-safely-use-non-web-safe-fonts/**/
+		@font-face {
+			font-family: 'Conv_Gotham-Book';
+			src: url('fonts/Gotham-Book.eot');
+			src: local('☺'), url('fonts/Gotham-Book.woff') format('woff'), url('fonts/Gotham-Book.ttf') format('truetype'), url('fonts/Gotham-Book.svg') format('svg');
+			font-weight: normal;
+			font-style: normal;
+		}
+		
+		body {
+			font-family: Conv_Gotham-Book;
+			color: rgba(0,0,0,.6);
+		}
+		
+		::placeholder {
+			font-family: Conv_Gotham-Book;
+			color: rgba(255,255,255,0.5);
+		}
+		
+		#nav {
+			text-decoration: none;
+		}
+		
+		ul {
+			display: block;
+			margin-top: 0px;
+			margin-right: 10px;
+			padding: 0px;
+			padding-bottom: 10px;
+			width: 300px;
+		}
+		
+		a {
+			text-decoration: none;
+			margin-left: 20px;
+			margin-right: 20px;
+			font-family: Conv_Gotham-Book;
+			color: rgba(0,0,0,0.7);
+		}
+		
+		.radio1, .radio2, .radio3, .radio4, .radio5 {
+			display: none;
+		}
+		div label {
+			float: left;
+			border: 2px solid white;
+		}
+		
+		div input.radio1:checked + label, div input.radio2:checked + label,
+		div input.radio3:checked + label,div input.radio4:checked + label,
+		div input.radio5:checked + label{ 
+			background-color: rgba(50,50,50,.1);
+		}
+		
+		div label:hover{
+			background-color: rgba(255,255,255,0.3);
+		}
+	
+		#logo {
+			float: left;
+			font-size: 32px;
+		}
+		a:hover {
+			color: rgba(0,0,0,0.4);
+		}
+		
+		label {
+			display: block;
+			margin: 10px;
+			width: 200px;
+			height: 180px;
+			text-align:center;
+		}
+
+		input {
+			display: block;
+			width: 200px;
+			margin: 10px;
+		}
+
+		form, h1, p{
+			text-align: center;
+		}
+		
+		p{
+			font-size: 24px;
+		}
+		
+		form {
+			display: inline-block;
+			text-align: center;
+			margin-left: 25%;
+			margin-right: auto;
+			font-size: 24px;
+			color: rgba(0,0,0,.5);
+		}
+		
+		#done1{
+			background-color: rgba(0,0,0,0.1);
+		}
+		
+		#done1:hover, .sub:hover  {
+			background-color: rgba(255,255,255,0.5);
+		}
+		
+		input {
+			font-size: 24px;
+			padding: 10px;
+			background-color: rgba(255,255,255,0.1);
+			border: 2px solid gray;
+			float: left;
+			color: rgba(0,0,0,.5);
+			font-family: Conv_Gotham-Book;
+		}		
+		
+		h1{
+			padding-top: 10%;
+		}
+		
+		
+		
+		table,tr,td {
+			border: 2px solid white;
+			padding: 10px;
+			}
+			
+		thead tr td {
+		background-color: rgba(255,255,255,0.2);
+		}
+		
+		div {
+			clear: left;
+			float: left;
+		}
+	

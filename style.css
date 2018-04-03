@@ -1,0 +1,23 @@
+
+label, #submit{
+	clear: left;
+	float: left;
+	width: 200px;
+	margin: 15px;
+}
+#submit{
+	background-color: rgb(230,230,230);
+	border: 1px solid black;
+	width: 100px;
+}
+
+input, select{
+	float: left;
+	margin: 15px;
+	width: 300px;
+}
+
+div {
+	clear: left;
+	float: left;
+}
